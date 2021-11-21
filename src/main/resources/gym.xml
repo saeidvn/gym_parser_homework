@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--        xsi:noNamespaceSchemaLocation="gym.xsd"-->
+
+<gym>
+    <members>
+        <member id="1">
+            <name>Bob</name>
+        </member>
+        <member id="2">
+            <name>Sara</name>
+        </member>
+    </members>
+    <trainers>
+        <yogaTrainer>
+            <name>Anna</name>
+            <dateOfBirth>1980-04-20</dateOfBirth>
+            <yogaPant>WORKOUT</yogaPant>
+            <yogaInstrument>
+                <name>drum</name>
+                <type>DRUM</type>
+            </yogaInstrument>
+        </yogaTrainer>
+        <trainer>
+            <name>Mike</name>
+            <dateOfBirth>1980-04-20</dateOfBirth>
+            <type>Box</type>
+        </trainer>
+    </trainers>
+</gym>
