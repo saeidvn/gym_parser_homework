@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
-<!--        xsi:noNamespaceSchemaLocation="gym.xsd"-->
-
-<gym>
+<gym xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="gym.xsd">
     <members>
         <member id="1">
             <name>Bob</name>

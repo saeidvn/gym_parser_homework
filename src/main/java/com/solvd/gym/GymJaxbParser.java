@@ -7,12 +7,6 @@ import java.io.File;
 
 public class GymJaxbParser implements Parsable {
 
-//        public Gym parse(String xmlPath) {
-//        Gym gym = new Gym();
-//
-//        return gym;
-//    }
-
     @Override
     public Gym parse(String path) {
         File xmlFile = new File(path);

@@ -1,0 +1,34 @@
+{
+  "gym": [
+    {
+      "members": [
+        {
+          "id": "1",
+          "name": "Bob"
+        },
+        {
+          "id": "2",
+          "name": "Sara"
+        }
+      ]
+    },
+    {
+      "trainers": [
+        {
+          "yogaTrainer": [
+
+          ]
+        },
+        {
+          "trainer": [
+            {
+              "name": "Mike",
+              "dateOfBirth": "1980-04-20",
+              "type": "Box"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

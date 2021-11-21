@@ -12,10 +12,19 @@
     <properties>
         <log4jVersion>2.14.1</log4jVersion>
         <javaVersion>1.8</javaVersion>
-        <domParserVersion>2.3.0-jaxb-1.0.6</domParserVersion>
+        <jaxb-api-version>2.4.0-b180830.0359</jaxb-api-version>
+        <jackson-databind-version>2.13.0</jackson-databind-version>
+        <jackson-core-version>2.13.0</jackson-core-version>
+        <jackson-annotations-version>2.13.0</jackson-annotations-version>
+        <jackson-datatype-jsr310-version>2.13.0</jackson-datatype-jsr310-version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>${jaxb-api-version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
@@ -40,9 +49,32 @@
             <version>2.4.0-b180830.0359</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson-databind-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson-core-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson-annotations-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>${jackson-datatype-jsr310-version}</version>
+        </dependency>
     </dependencies>
 
     <build>
+        <defaultGoal>
+            clean install
+        </defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

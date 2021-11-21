@@ -1,10 +1,13 @@
 package com.solvd.gym;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.xml.bind.annotation.*;
 import java.util.List;
 
 @XmlRootElement(name = "gym")
 @XmlAccessorType (XmlAccessType.FIELD)
+@JsonIgnoreProperties
 public class Gym {
 
     @XmlElementWrapper(name="trainers")

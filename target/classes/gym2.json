@@ -1,0 +1,19 @@
+{
+  "members": [
+    {
+      "id": "1",
+      "name": "Bob"
+    },
+    {
+      "id": "2",
+      "name": "Sara"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Mike",
+      "dateOfBirth": "1980-04-20",
+      "type": "Box"
+    }
+  ]
+}
